@@ -2,8 +2,12 @@
 @import url(https://fonts.googleapis.com/css?family=Indie+Flower);
 @import url(https://fonts.googleapis.com/css?family=Oswald);
 @import url(https://fonts.googleapis.com/css?family=PT+Sans+Narrow);
-body{
+
+body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
+
 div#interface {
   display: block;
   width: 1000px;
@@ -62,6 +66,8 @@ div#menu ul{
   padding: 0;
   width: 280px;
 }
+
+
 div#menu li{
     list-style: none;
     display:block;
