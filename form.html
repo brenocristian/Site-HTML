@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="_css/config.css">
+    <title>Fale Conosco</title>
+  </head>
+    <body background= "_imagens/o-senhor-dos-aneis.png">
+<div id = "interface">
+    <h1>Fale Conosco!</h1>
+<form>
+ <fieldset>
+   <legend><h2>Dados do Usuário</h2></legend>
+
+   <p><label for="cNome">Nome:</label><input type="text" name="tNome" id="cNome" size="30" maxlength="50" placeholder="Nome Completo"></p>
+   <p><label for="login">Login de usuário: </label><input type="text" name="login" placeholder="Digite seu login"></p>
+   <p><label for="cSenha">Senha: </label><input type="password" name="tSenha" id="cSenha" size="12" maxlength="15" placeholder="Digite sua senha"></p>
+   <p><label for="passconfirm">Confirme a senha:</label><input type="password" name="passconfirm"id="cSenha" size="12" maxlength="15" placeholder="Confirme sua senha"></p>
+   <fieldset>
+     <legend>Sexo:</legend>
+    <p><input type="radio" name="Sexo" id="cMasculino"><label for="cMasculino">Masculino</label>
+    <p><input type="radio" name="Sexo" id="cFeminino"><label for="cFeminino">Feminino</label></p>
+   </fieldset>
+   <p><label for="cemail">E-mail:</label><input type="email" name="temail" id="cemail" size="30" maxlength="50" placeholder="Digite seu E-mail"></p>
+   <p><label for="cData">Data de Nascimento:</label><input type="date" name="tData" id="cData"></p>
+ </fieldset>
+
+ <fieldset>
+   <legend><h2>Dados de Endereço</h2></legend>
+
+   <p><label for="cLog">Logradouro:</label><input type="text" name="tLog" id="cLog" size="30" maxlength="50" placeholder="Rua/Avenida"></p>
+   <p><label for="cNum">Número:</label><input type="text" name="tNum" id="cNum" size="30" maxlength="50" placeholder="Número da Casa"></p>
+    <p><label for="cEst">Estado<label for="estado"></label>
+   </td>
+   <td align="left">
+    <select name="estado">
+    <option selected>---</option>
+    <optgroup label="Estados do Norte">
+    <option value="ac">AC-Acre</option>
+    <option value="am">AM-Amazonas</option>
+    <option value="ap">AP-Amapá</option>
+      <option value="pa">PA-Pará</option>
+    <option value="ro">RO-Rondônia</option>
+    <option value="rr">RR-Roraima</option>
+    </optgroup>
+    <optgroup label="Estados do Centro-Oeste">
+    <option value="mt">MT-Mato Grosso</option>
+    <option value="ms">MS-Mato Grosso do Sul</option>
+    <option value="go">GO-Goiás</option>
+    <option value="df">DF-Distrito Federal</option>
+    </optgroup>
+    <optgroup label="Estados do Sudeste">
+    <option value="mg">MG-Minas Gerais</option>
+    <option value="rj">RJ-Rio de Janeiro</option>
+    <option value="es">ES-Espírito Santo</option>
+    <option value="sp">SP-São Paulo</option>
+    </optgroup>
+    <optgroup label="Estados do Nordeste">
+    <option value="al">AL-Alagoas</option>
+    <option value="ba">BA-Bahia</option>
+    <option value="ce">CE-Ceará</option>
+    <option value="ma">MA-Maranhão</option>
+    <option value="pb">PB-Paraíba</option>
+    <option value="pe">PE-Pernambuco</option>
+    <option value="pi">PI-Piauí</option>
+    <option value="rn">RN-Rio Grande do Norte</option>
+    <option value="se">SE-Sergipe</option>
+    <option value="to">TO-Tocantins</option>
+    </optgroup>
+    <optgroup label="Estados do Sul">
+    <option value="rs">RS-Rio Grande do Sul</option>
+    <option value="sc">SC-Santa Catarina</option>
+    <option value="pr">PR-Paraná</option>
+    </optgroup>
+   </select></p>
+    <p><label for="cCid">Cidade:</label><input type="text" name="tCid" id="cCid" size="15" maxlength="50" placeholder="Cidade" list="Cidades"></p>
+ </fieldset>
+ <h2>Sugestões</h2>
+ <textarea name="textarea" rows="10" cols="50"></textarea>
+<input type="submit">
+<input type="reset" value="Limpar">
+</form>
+</div>
+  </body>
+</html>
